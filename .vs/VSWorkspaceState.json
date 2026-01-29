@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DBSearch"
+    "\\DBSearch",
+    "\\DBSearch\\model"
   ],
-  "SelectedNode": "\\DBSearch.sln",
+  "SelectedNode": "\\DBSearch\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
