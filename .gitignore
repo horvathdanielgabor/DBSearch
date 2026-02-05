@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DBSearch/FileContentIndex/86309e9a-c272-41f2-9805-59edc7bb362d.vsidx
+/.vs/DBSearch/FileContentIndex/24de6e30-4203-4c93-ad2d-d78b63365853.vsidx
+/.vs/DBSearch/FileContentIndex/6d1ad27c-6f10-43b6-b7dc-522219aa9238.vsidx
+*.vsidx
+/.vs/slnx.sqlite
+/.vs/DBSearch/FileContentIndex/0e640c61-87d6-470b-9147-f9201ea9738e.vsidx
+/.vs/DBSearch/FileContentIndex/3ee600e4-e1ee-413e-814b-625cbf55162d.vsidx
+/.vs/DBSearch/FileContentIndex/a9ed764e-f5ea-4fc7-bfce-32dc1de01ce9.vsidx
+/.vs/DBSearch/FileContentIndex/cc02f832-aa03-494e-b496-21b8dfc338a5.vsidx
+/.vs/DBSearch/FileContentIndex/ce56c60f-24f7-422e-9ac4-54a5ee759bf3.vsidx
+/.vs/ProjectEvaluation/dbsearch.metadata.v9.bin
+/.vs/ProjectEvaluation/dbsearch.projects.v9.bin
+/.vs/ProjectEvaluation/dbsearch.strings.v9.bin
+/.vs
+/.vs/
+.vs
