@@ -34,7 +34,47 @@ namespace DBSearch.model
 
 
 		}
-		// ($"select * from " + tableName, connection); keresesalapja
+
+		public static DataTable DBFunctions(string tableName, string connectionString, string userInput, int userChoice)
+		{
+			using var connection = new MySqlConnection(connectionString);
+			connection.Open();
+			string tipus = "";
+
+
+			if (userInput.Contains("@"))
+			{
+				tipus = "email";
+			}
+			else if (userInput.Contains("+"))
+			{
+				tipus = "phone_number";
+			}
+			else if(userInput.Contains(" "))
+			{
+				tipus = "full_name";
+			}
+			else
+			{
+				Console.WriteLine("Wrong format! Try again");
+				return null;
+			}
+
+
+
+			using var Command = new MySqlCommand($"select * from {tableName} where {tipus} = {userInput}", connection); //keresesalapja
+
+			using var nameCommand = new MySqlCommand($"select * from {tableName}  where {tipus} = {userInput}", connection);
+
+			using var reader = nameCommand.ExecuteReader();
+			var dataTable = new DataTable();
+
+			dataTable.Load(reader);
+
+
+			return dataTable;
+		}
+		
 
 
 		public static DataTable GetAllData(string tableName, string connectionString)
