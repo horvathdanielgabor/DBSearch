@@ -1,6 +1,7 @@
 ﻿using DBSearch.model;
 using System.Data;
 using System.Runtime.Intrinsics;
+using System.Text.RegularExpressions;
 
 internal class Program
 {
@@ -9,22 +10,25 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        int input = 0;
+        int input1 = 0;
+        string input2 = null;
+        bool switch1 = false;
+        Regex filter = new Regex("");
 
         do
         {
             Console.WriteLine("What do you want to do? Give us the number of the option \n 1: Search \n 2: Add \n 3: Delete");
             try
             {
-                input = Convert.ToInt32(Console.ReadLine()[0]);
+                input1 = Convert.ToInt32(Console.ReadLine()[0]);
 
-                if (input > 0 && input < 4)
+                if (input1 > 0 && input1 < 4)
                 {
-                    
+                    switch1 = true;
                 }
                 else
                 {
-                    Console.WriteLine($"{input} number is not a option");
+                    Console.WriteLine($"{input1} number is not a option");
                 }
             }
             catch
@@ -32,20 +36,20 @@ internal class Program
                 Console.WriteLine("Wrong format! Try again");
             }
 
-            if (input == 2)
+            if (input1 == 2)
             {
-                Console.WriteLine();
-                break;
+                Console.WriteLine("Write down your new row like this:\nTeljes Név;abc123@email.com;+00 00 000 0000");
+                input2 = Console.ReadLine();
+
+                input2 ? :
             }
-            else
+            else if (switch1)
             {
                 Console.WriteLine();
-                break;
+                input2 = Console.ReadLine();
             }
         }
         while (true);
-
-
     }
 
     private static List<DataStore> DataLoad(string v1, string v2)
