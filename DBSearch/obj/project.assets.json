@@ -200,23 +200,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\horvathdanielgabor\\.nuget\\packages\\": {},
+    "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASZAF12\\DBSearch\\DBSearch\\DBSearch.csproj",
+      "projectUniqueName": "D:\\dbsearec\\DBSearch\\DBSearch.csproj",
       "projectName": "DBSearch",
-      "projectPath": "D:\\ASZAF12\\DBSearch\\DBSearch\\DBSearch.csproj",
-      "packagesPath": "C:\\Users\\horvathdanielgabor\\.nuget\\packages\\",
-      "outputPath": "D:\\ASZAF12\\DBSearch\\DBSearch\\obj\\",
+      "projectPath": "D:\\dbsearec\\DBSearch\\DBSearch.csproj",
+      "packagesPath": "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\",
+      "outputPath": "D:\\dbsearec\\DBSearch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\horvathdanielgabor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gyutaidanielgabor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
