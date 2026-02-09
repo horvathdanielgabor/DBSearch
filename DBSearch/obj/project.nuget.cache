@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "njpcj64GVYU=",
+  "dgSpecHash": "habeSd2ZnB4=",
   "success": true,
-  "projectFilePath": "D:\\dbsearec\\DBSearch\\DBSearch.csproj",
+  "projectFilePath": "D:\\DBSearch\\DBSearch\\DBSearch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
