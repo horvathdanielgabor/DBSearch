@@ -13,7 +13,6 @@ internal class Program
         int input1 = 0;
         string input2 = null;
         bool switch1 = false;
-        Regex filter = new Regex("");
 
         do
         {
@@ -36,18 +35,27 @@ internal class Program
                 Console.WriteLine("Wrong format! Try again");
             }
 
-            if (input1 == 2)
+            do
             {
-                Console.WriteLine("Write down your new row like this:\nTeljes Név;abc123@email.com;+00 00 000 0000");
-                input2 = Console.ReadLine();
+                if (input1 == 2)
+                {
+                    Console.WriteLine("Write down your new row like this:\nTeljes Név;abc123@email.com;+00 00 000 0000");
+                    input2 = Console.ReadLine();
 
-                input2 ? :
+                    if (Regex.IsMatch(input2, @";[0-z]{1,}@[0-z]{3,}\.[0-9]{2,3}|[a-z]{2,3};+\d{2} \d{2} \d{3} \d{4}$"))
+                    {
+                        break;
+                    }
+
+                    Console.WriteLine("Your insert didn't match with the pattern!\nTry again!");
+                }
+                else if (switch1)
+                {
+                    Console.WriteLine();
+                    input2 = Console.ReadLine();
+                }
             }
-            else if (switch1)
-            {
-                Console.WriteLine();
-                input2 = Console.ReadLine();
-            }
+            while (true);
         }
         while (true);
     }

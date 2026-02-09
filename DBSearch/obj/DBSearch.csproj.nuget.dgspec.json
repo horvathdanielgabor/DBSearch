@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DBSearch\\DBSearch\\DBSearch.csproj": {}
+    "D:\\ASZAF12\\DBSearch\\DBSearch\\DBSearch.csproj": {}
   },
   "projects": {
-    "D:\\DBSearch\\DBSearch\\DBSearch.csproj": {
+    "D:\\ASZAF12\\DBSearch\\DBSearch\\DBSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DBSearch\\DBSearch\\DBSearch.csproj",
+        "projectUniqueName": "D:\\ASZAF12\\DBSearch\\DBSearch\\DBSearch.csproj",
         "projectName": "DBSearch",
-        "projectPath": "D:\\DBSearch\\DBSearch\\DBSearch.csproj",
-        "packagesPath": "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\",
-        "outputPath": "D:\\DBSearch\\DBSearch\\obj\\",
+        "projectPath": "D:\\ASZAF12\\DBSearch\\DBSearch\\DBSearch.csproj",
+        "packagesPath": "C:\\Users\\horvathdanielgabor\\.nuget\\packages\\",
+        "outputPath": "D:\\ASZAF12\\DBSearch\\DBSearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gyutaidanielgabor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\horvathdanielgabor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

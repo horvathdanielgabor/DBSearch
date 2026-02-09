@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "habeSd2ZnB4=",
+  "dgSpecHash": "dXiuCV6nt1o=",
   "success": true,
-  "projectFilePath": "D:\\DBSearch\\DBSearch\\DBSearch.csproj",
+  "projectFilePath": "D:\\ASZAF12\\DBSearch\\DBSearch\\DBSearch.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\gyutaidanielgabor\\.nuget\\packages\\mysqlconnector\\2.5.0\\mysqlconnector.2.5.0.nupkg.sha512"
+    "C:\\Users\\horvathdanielgabor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\horvathdanielgabor\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\horvathdanielgabor\\.nuget\\packages\\mysqlconnector\\2.5.0\\mysqlconnector.2.5.0.nupkg.sha512"
   ],
   "logs": []
 }
