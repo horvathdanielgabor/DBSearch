@@ -10,52 +10,69 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        int input1 = 0;
-        string input2 = null;
-        bool switch1 = false;
+        int choice = 0;
+        string input = null;
+        bool active = false;
 
         do
         {
-            Console.WriteLine("What do you want to do? Give us the number of the option \n 1: Search \n 2: Add \n 3: Delete");
+            Console.Write("What do you want to do? Give us the number of the option \n 1: Search \n 2: Add \n 3: Delete\nVálasztásod:");
             try
             {
-                input1 = Convert.ToInt32(Console.ReadLine()[0]);
+                choice = Convert.ToInt32(Console.ReadLine()[0]);
 
-                if (input1 > 0 && input1 < 4)
+                if (choice > 0 && choice < 4)
                 {
-                    switch1 = true;
+                    active = true;
                 }
                 else
                 {
-                    Console.WriteLine($"{input1} number is not a option");
+                    Console.WriteLine($"{choice} number is not a option");
                 }
             }
             catch
             {
-                Console.WriteLine("Wrong format! Try again");
+                Console.WriteLine("Wrong format!");
             }
 
             do
             {
-                if (input1 == 2)
+                if (choice == 2)
                 {
                     Console.WriteLine("Write down your new row like this:\nTeljes Név;abc123@email.com;+00 00 000 0000");
-                    input2 = Console.ReadLine();
+                    input = Console.ReadLine();
 
-                    if (Regex.IsMatch(input2, @";[0-z]{1,}@[0-z]{3,}\.[0-9]{2,3}|[a-z]{2,3};+\d{2} \d{2} \d{3} \d{4}$"))
+                    if (Regex.IsMatch(input, @"^[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+(\s[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+)+;[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,};\+\d{2}\s\d{2}\s\d{3}\s\d{4}$"))
                     {
                         break;
                     }
 
                     Console.WriteLine("Your insert didn't match with the pattern!\nTry again!");
                 }
-                else if (switch1)
+                else if (active)
                 {
-                    Console.WriteLine();
-                    input2 = Console.ReadLine();
+                    Console.Write("Írd be a személy egyik adatát!\nAdat:");
+                    input = Console.ReadLine();
+
+                    switch (choice)
+                    {
+                        case 1:
+
+                            break;
+                        case 3:
+
+                            break;
+                    }
+
+                    break;
                 }
             }
             while (true);
+            Console.WriteLine("Try again?");
+            if (Console.ReadLine() == "No")
+            {
+                
+            }
         }
         while (true);
     }
