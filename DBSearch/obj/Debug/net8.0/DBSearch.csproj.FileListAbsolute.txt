@@ -18,3 +18,23 @@ D:\.11aszaf\DBSearch\obj\Debug\net8.0\refint\DBSearch.dll
 D:\.11aszaf\DBSearch\obj\Debug\net8.0\DBSearch.pdb
 D:\.11aszaf\DBSearch\obj\Debug\net8.0\DBSearch.genruntimeconfig.cache
 D:\.11aszaf\DBSearch\obj\Debug\net8.0\ref\DBSearch.dll
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\DBSearch.exe
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\DBSearch.deps.json
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\DBSearch.runtimeconfig.json
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\DBSearch.dll
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\DBSearch.pdb
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.AssemblyInfo.cs
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.sourcelink.json
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.csproj.Up2Date
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.dll
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\refint\DBSearch.dll
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.pdb
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\DBSearch.genruntimeconfig.cache
+C:\Users\user\OneDrive - Bajai SZC Türr István Technikum\Asztal\DBSearch\DBSearch\obj\Debug\net8.0\ref\DBSearch.dll
