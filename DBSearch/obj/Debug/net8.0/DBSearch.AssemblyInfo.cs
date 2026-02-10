@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBSearch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3342f227eda4cbed59b14af5372f894f075391e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21829511c5e1d1aadc6cb6c2a64bd3096945eaea")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBSearch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBSearch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
